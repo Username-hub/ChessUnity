@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7387006116886546171
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7387006116886546165}
+  - component: {fileID: 7387006116886546170}
+  - component: {fileID: 7387006116886546164}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7387006116886546165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7387006116886546171}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.872933, y: -3.1990523, z: -10.310176}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7387006116886546170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7387006116886546171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 902523393daf471e9356d800c8ded047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boardScript: {fileID: 0}
+  figureSelected: 0
+  nowTurn: 1
+--- !u!114 &7387006116886546164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7387006116886546171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3338b21b634b4fadbd281be6e2039082, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whitePown: {fileID: 3028529202686737098, guid: e6246f3f150c5c006b8945a4b66471b9,
+    type: 3}
+  whiteBishop: {fileID: 4118767653501710320, guid: dbb65541ecb915da88c710a3a331dc1d,
+    type: 3}
+  whiteRook: {fileID: 6697187911134951221, guid: b7298973eaba0034882cdb0fd907fac7,
+    type: 3}
+  whiteHorse: {fileID: 5913994680159358179, guid: 3b33de7fdb7ee1c2382b9e15255eedd9,
+    type: 3}
+  whiteQueen: {fileID: 5562843999985379621, guid: dbfeebe639b6c428a839ed0d763eb057,
+    type: 3}
+  whiteKing: {fileID: 1984402518912042152, guid: bcec9e71e87bd45fa8fdf913ff1eb57a,
+    type: 3}
+  blackPown: {fileID: 2447037996818556648, guid: 61455cd9a8bf5a042b74bb1f876c06c8,
+    type: 3}
+  blackBishop: {fileID: 4852274275200382100, guid: 4d300d0cf606f921b906db0129c958fc,
+    type: 3}
+  blackRook: {fileID: 7002540098018729460, guid: e848741d41c3e41de9a427a9afaf9e33,
+    type: 3}
+  blackHorse: {fileID: 8287681446981831270, guid: 88b42fd385f1daaa695c32c61c31b442,
+    type: 3}
+  blackQueen: {fileID: 3912746929777481365, guid: b148cc22815e1b0f495a92ff9621634e,
+    type: 3}
+  blackKing: {fileID: 7026603593920524070, guid: e737fffdf38e1bc70a503999318cc2a0,
+    type: 3}
